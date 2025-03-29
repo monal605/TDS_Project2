@@ -10,7 +10,6 @@ import re
 import tempfile
 import shutil
 import subprocess
-import httpx
 import json
 import csv
 from typing import Optional, Dict, Any, List

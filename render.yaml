@@ -1,0 +1,13 @@
+services:
+  - name: fastapi-app
+    type: web
+    env: python
+    plan: free  # Change this if you need more resources
+    region: oregon  # or another region
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: py -m app.main
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9  # Match this with your virtual environment
+      - key: OPENAI_API_KEY
+        sync: false  # Keep secrets out of version control
