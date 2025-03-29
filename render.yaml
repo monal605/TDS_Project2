@@ -9,5 +9,5 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.9  # Match this with your virtual environment
-      - key: OPENAI_API_KEY
+      - key: AIPROXY_TOKEN
         sync: false  # Keep secrets out of version control
