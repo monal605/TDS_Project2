@@ -1,39 +1,11 @@
-# IITM Assignment API
+#  Badly  Formatted  Markdown    
 
-This API automatically answers questions from graded assignments for the IIT Madras Online Degree in Data Science.
+*  This is an uneven list
+* With inconsistent spacing
+   *    And weird indentation
 
-## Setup
+>This quote has no space
+>   This one has too many
 
-1. Clone this repository
-2. Create a virtual environment: `python -m venv venv`
-3. Activate the virtual environment:
-   - Windows: `venv\Scripts\activate`
-   - Unix/MacOS: `source venv/bin/activate`
-4. Install dependencies: `pip install -r requirements.txt`
-5. Create a `.env` file with your `AIPROXY_TOKEN`
-6. Run the server: `uvicorn app.main:app --reload`
-
-## Usage
-
-Send a POST request to the `/api/` endpoint with:
-- `question`: The assignment question
-- `file` (optional): Any file attachment needed to answer the question
-
-Example:
-```bash
-curl -X POST "http://localhost:8000/api/" \
-  -H "Content-Type: multipart/form-data" \
-  -F "question=Download and unzip file abcd.zip which has a single extract.csv file inside. What is the value in the 'answer' column of the CSV file?" \
-  -F "file=@abcd.zip"
-```
-
-Response:
-```json
-{
-  "answer": "1234567890"
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+MQ Wb7W 0 T NilWwemicPb0Ots1Vz uQcT W0 q6htT c0HIK v 82hM i Ok7al 2E Iu2r YjKwZ 7AZgZ Bea ug0lsOAZsceeC00 qy9 s2 k2v336q9 q  B9wGJ sBIKkEOv   Drxf3mWpdN6Po 5no4dAqP BY 2VFryQgVaWEmcM 1d6 bGf 3Xw37 jK WoUM1s  E 1 w BhM1 mhjue wblIlJIr3zr3  uV77EDM3xfxGtvX fMHzW 0ACkhbeNY
+YaDzm IXbvK Wrl86 h5PJ 6g 8Tw
